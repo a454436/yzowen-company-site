@@ -917,3 +917,29 @@ h3 {
   display: block;
   border-radius: 22px;
 }
+/* 工厂实力图片展示 */
+.factory-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.factory-gallery img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 22px;
+  box-shadow: 0 12px 32px rgba(11, 31, 58, 0.12);
+}
+
+@media (max-width: 640px) {
+  .factory-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .factory-gallery img {
+    height: 220px;
+  }
+}
