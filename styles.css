@@ -1069,3 +1069,54 @@ h3 {
     grid-template-columns: 1fr;
   }
 }
+/* 首页客户场景模块 */
+.scenario-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 22px;
+}
+
+.scenario-card {
+  padding: 28px;
+  border-radius: 28px;
+  background: #ffffff;
+  border: 1px solid rgba(11, 31, 58, 0.08);
+  box-shadow: 0 18px 45px rgba(11, 31, 58, 0.08);
+}
+
+.scenario-card span {
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: var(--navy);
+  color: var(--gold);
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+.scenario-card h3 {
+  margin: 0 0 12px;
+  color: var(--navy);
+  font-size: 20px;
+}
+
+.scenario-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+@media (max-width: 960px) {
+  .scenario-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .scenario-grid {
+    grid-template-columns: 1fr;
+  }
+}
