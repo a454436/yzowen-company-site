@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.yzowen.com/</loc></url>
-  <url><loc>https://www.yzowen.com/about.html</loc></url>
-  <url><loc>https://www.yzowen.com/products.html</loc></url>
-  <url><loc>https://www.yzowen.com/factory.html</loc></url>
-  <url><loc>https://www.yzowen.com/quality.html</loc></url>
-  <url><loc>https://www.yzowen.com/contact.html</loc></url>
+  <url>
+    <loc>https://www.yzowen.com/</loc>
+  </url>
+  <url>
+    <loc>https://www.yzowen.com/about.html</loc>
+  </url>
+  <url>
+    <loc>https://www.yzowen.com/products.html</loc>
+  </url>
+  <url>
+    <loc>https://www.yzowen.com/factory.html</loc>
+  </url>
+  <url>
+    <loc>https://www.yzowen.com/quality.html</loc>
+  </url>
+  <url>
+    <loc>https://www.yzowen.com/contact.html</loc>
+  </url>
 </urlset>
