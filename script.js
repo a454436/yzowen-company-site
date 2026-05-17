@@ -26,3 +26,27 @@ document.addEventListener("DOMContentLoaded", function () {
   `;
   document.body.appendChild(floatingContact);
 });
+// 返回顶部按钮
+document.addEventListener("DOMContentLoaded", function () {
+  const backTop = document.createElement("button");
+  backTop.className = "back-top-btn";
+  backTop.innerHTML = "↑";
+  backTop.setAttribute("aria-label", "返回顶部");
+
+  document.body.appendChild(backTop);
+
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 500) {
+      backTop.classList.add("show");
+    } else {
+      backTop.classList.remove("show");
+    }
+  });
+
+  backTop.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+});
