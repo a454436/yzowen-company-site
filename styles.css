@@ -1399,24 +1399,14 @@ h3 {
   justify-content: center;
   gap: 14px;
   flex-wrap: wrap;
-}
-.site-logo {
-  height: 48px;
-  width: auto;
-  display: block;
-  object-fit: contain;
+
 }
 
 .brand {
   display: flex;
   align-items: center;
   text-decoration: none;
-}
-.site-logo {
-  height: 46px;
-  width: auto;
-  display: block;
-  object-fit: contain;
+
 }
 
 .brand {
